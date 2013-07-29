@@ -36,7 +36,7 @@ source ~/environment/git-prompt.bash
 #PS1="[\[\033[0;33m\]"'$(__git_ps1 "%s " ; perl -e "print $^V ")'"\[\033[1;31m\]"'$(__slando_git_test_and_fetch)'"\[\033[0;32m\]\t \[\033[0;34m\]\W\[\033[0m\]]\\$ "
 #export PS1
 
-source ~/bin/ps1.sh
+source ~/environment/ps1.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/git-hooks:/usr/local/share/npm/bin # Add RVM to PATH for scripting
